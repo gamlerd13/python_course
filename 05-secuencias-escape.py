@@ -1,3 +1,3 @@
 curso = "ultime \npython"
-edad = "el \"edercito\""
+edad = "el \"gamlerd13\""
 print(curso, edad)

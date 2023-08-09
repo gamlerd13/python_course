@@ -1,10 +1,10 @@
 datos = {
     "name": "eder",
-    "edad": 23,
+    "edad": 30,
     "gustos": [
-        "altas",
-        "rubias",
-        "delgadas"
+        "futbol",
+        "natacion",
+        "basquetball"
     ]
 }
 
@@ -12,7 +12,7 @@ amount_gustos = len(datos["gustos"])
 
 #method 1
 for e in datos["gustos"]:
-    print(f"me gustan {e}")
+    print(f"me gusta el/la {e}")
 
 #method 2
 for i in range(amount_gustos):
