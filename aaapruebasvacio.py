@@ -18,29 +18,3 @@ datos3 = {
     'edad':int(edad)
 }
 
-
-## First Form
-# def saludar(datitos):
-#     datitos[1]= int(datitos[1])
-#     if datitos[1] > 18:
-#         print(f"Hola {datitos[0]} usted es mayor de edad")
-#     else:
-#         print("Oye mocose que haces acá")
-# saludar(datos)
-
-## Second Form
-# def saludar(name, edad):
-#     edad= int(edad)
-#     if edad > 18:
-#         print(f"Hola {name} usted es mayor de edad")
-#     else:
-#         print("Oye mocose que haces acá")
-# saludar(*datos)
-
-def saludar(name, edad):
-    edad= int(edad)
-    if edad > 18:
-        print(f"Hola {name} usted es mayor de edad")
-    else:
-        print("Oye mocoso, no deberias estas aca")
-saludar(**datos2)
