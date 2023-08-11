@@ -26,7 +26,7 @@ print(frutas)  # Output: ["manzana", "naranja"]
 
 # pop(indice): Elimina y devuelve el elemento en la posición especificada. Si no se proporciona un índice, elimina y devuelve el último elemento.
 frutas = ["manzana", "banana", "naranja"]
-eliminado = frutas.pop(1)
+eliminado = frutas.pop(1) # frutas.pop() = frutas.pop(len(frutas)-1), al usar pop sin argumentos, eliminará el ultimo elemento.
 print(eliminado)  # Output: "banana"
 print(frutas)     # Output: ["manzana", "naranja"]
 
@@ -117,3 +117,9 @@ nombres = ["Alice", "Bob", "Charlie"]
 edades = [25, 30, 28]
 combinados = list(zip(nombres, edades))
 print(combinados)  # Output: [("Alice", 25), ("Bob", 30), ("Charlie", 28)]
+
+
+# THERE IS A METHOD FOR STRING BUT IS IMPORTANT TO KNOW TOO
+mensaje = "El pollo estaba vivo o muerto"
+mensaje = mensaje.split(' ')
+print(mensaje)
