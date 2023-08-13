@@ -5,3 +5,7 @@
 
 ### How to create a requiments file to save python libraries
 - comando en bash: pip freeze > requirements.txt
+
+
+## Good Libraries
+- pprint: This is for print
